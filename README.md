@@ -36,11 +36,11 @@ The model was trained using `scikit-learn`, scaled with `StandardScaler`, and sa
 ```
 elastic_net_app/
 │
-├── environment_data.csv         # Dataset
-├── model.py                     # Training and saving the model
-├── app.py                       # Gradio web app
-├── elastic_model.pkl            # Saved model (via pickle)
-└── scaler.pkl                   # Saved scaler (via pickle)
+├── environment_data.csv       
+├── model.py                     
+├── app.py                       
+├── elastic_model.pkl           
+└── scaler.pkl                   
 ```
 
 ---
@@ -74,22 +74,25 @@ The model will predict the **Air Quality Index** based on these values.
 
 ---
 
-## 📦 Dependencies
+## Smaple UI
 
-- pandas
-- numpy
-- scikit-learn
-- gradio
-- pickle
+**Input**:
 
-Install them using:
+<img width="1292" height="352" alt="image" src="https://github.com/user-attachments/assets/90532c99-9ba4-4214-82ab-ccd282f2024d" />
 
-```bash
-pip install pandas numpy scikit-learn gradio
-```
+**Output**:
+
+<img width="1292" height="353" alt="image" src="https://github.com/user-attachments/assets/a6a24825-8641-4043-b91d-eb1dddf0d7c4" />
 
 ---
 
 ## 📌 Author
 
-Developed by [Your Name]
+**Hari Prasath**  
+[GitHub Profile](https://github.com/hariprasath2105)
+
+---
+
+## 📘 License
+
+This project is open source and free to use.
