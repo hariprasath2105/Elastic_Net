@@ -1,8 +1,8 @@
-# 🌿 Air Quality Prediction using Elastic Net Regression
+# Air Quality Prediction using Elastic Net Regression
 
 This project uses **Elastic Net Regression** to predict the **Air Quality Index (AQI)** based on three key environmental features.
 
-## 📁 Dataset
+## Dataset
 
 The dataset `environment_data.csv` contains the following columns:
 
@@ -11,11 +11,9 @@ The dataset `environment_data.csv` contains the following columns:
 - `WindSpeed` (m/s)
 - `AirQualityIndex` (target)
 
-📥 [Download Dataset](./environment_data.csv)
-
 ---
 
-## 🧠 Model
+## Model
 
 We used the `ElasticNet` model from `sklearn.linear_model` to predict AQI.
 
@@ -30,8 +28,22 @@ We used the `ElasticNet` model from `sklearn.linear_model` to predict AQI.
 The model was trained using `scikit-learn`, scaled with `StandardScaler`, and saved using `pickle`.
 
 ---
+## Tech Stack
 
-## 💻 Project Structure
+| Technology     | Use                  |
+|----------------|----------------------|
+| Python         | Core language        |
+| scikit-learn   | Machine Learning     |
+| Pandas         | Data manipulation    |
+| Gradio         | Web-based UI         |
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-FF6B81?style=for-the-badge&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+---
+## Project Structure
 
 ```
 elastic_net_app/
@@ -45,7 +57,7 @@ elastic_net_app/
 
 ---
 
-## 🚀 Run the App
+## Run the App
 
 ### Step 1: Train the Model
 
@@ -63,7 +75,7 @@ The app will run locally at: `http://127.0.0.1:7860`
 
 ---
 
-## 🧪 How to Use the App
+## How to Use the App
 
 Adjust the following sliders:
 - **Temperature (25°C to 40°C)**
@@ -85,14 +97,3 @@ The model will predict the **Air Quality Index** based on these values.
 <img width="1292" height="353" alt="image" src="https://github.com/user-attachments/assets/a6a24825-8641-4043-b91d-eb1dddf0d7c4" />
 
 ---
-
-## 📌 Author
-
-**Hari Prasath**  
-[GitHub Profile](https://github.com/hariprasath2105)
-
----
-
-## 📘 License
-
-This project is open source and free to use.
